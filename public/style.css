@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    margin: 0;
+    font-family: Arial, Sans-Serif;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    margin-top: auto;
+}
